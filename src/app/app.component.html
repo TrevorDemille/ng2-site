@@ -1,16 +1,21 @@
-<div class="content">
-    <h1 class="title">Trevor Demille</h1>
-    <h3 class="subtitle">Artist &amp; Physicist</h3>
-    <p class="bio">
-        I'm finishing my bachelor's degree in astrophysics, and pursuing a Ph.D either in Physics, Aero/Astronautical Engineering or a related field with an ultimate goal of working in the space industry. My primary interests include fine arts, science &amp; mathematics, and linguistics.
-    </p>
-    <div class="links">
-        <a href="cv.pdf" class="link">Download CV</a>
-        <a href="https://www.linkedin.com/in/trevor-demille-94b307101" target="_blank" class="link">LinkedIn</a>
-        <a href="https://github.com/TrevorDemille" target="_blank" class="link">GitHub</a>
-        <a href="mailto:tbdemille@gmail.com" target="_blank" class="link">Email</a>
-    </div>
-    <div class="gallery">
-        <a href="gallery.html" class="link">Visit Art Gallery</a>
-    </div>
+<div class='container'>
+	<div class="content">
+	    <h1 class="title">Trevor Demille</h1>
+	    <h3 class="subtitle">Artist &amp; Physicist</h3>
+	    <p class="bio">
+	        I'm finishing my bachelor's degree in astrophysics, and pursuing a Ph.D either in Physics, Aero/Astronautical Engineering or a related field with an ultimate goal of working in the space industry. My primary interests include fine arts, science &amp; mathematics, and linguistics.
+	    </p>
+	    <div class="links">
+	        <a href="cv.pdf" class="link">Download CV</a>
+	        <a href="https://www.linkedin.com/in/trevor-demille-94b307101" target="_blank" class="link">LinkedIn</a>
+	        <a href="https://github.com/TrevorDemille" target="_blank" class="link">GitHub</a>
+	        <a href="mailto:tbdemille@gmail.com" target="_blank" class="link">Email</a>
+	    </div>
+	</div>
+</div>
+
+<div class='container gallery'>
+	<div class='col-sm-6 gallery-img' *ngFor="let img of images">
+		<img class='img-responsive' src={{img.src}}>
+	</div>
 </div>

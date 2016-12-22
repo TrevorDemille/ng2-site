@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  images = [
+  	{
+  		src: '../assets/characters1_fountain.png'
+  	}, {
+  		src: '../assets/circle7ring2_ballpoint.png'
+  	}, {
+  		src: '../assets/elements_marker.jpg'
+  	}, {
+  		src: '../assets/entanglement_ballpoint.png'
+  	}
+  ]
 }
