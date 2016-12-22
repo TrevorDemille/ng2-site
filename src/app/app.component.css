@@ -1,0 +1,42 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.link {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #1b998b;
+    padding-right: 10px;
+}
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: #3c3c3c;
+}
+
+.subtitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #818181;
+}
+
+.bio {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #3c3c3c;
+}
+
+.gallery {
+    padding-top: 50px;
+    font-size: 26px;
+}
